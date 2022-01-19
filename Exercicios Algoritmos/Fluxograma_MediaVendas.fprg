@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="engenharia02"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-29 04:14:26 "/>
+        <attribute name="created" value="ZW5nZW5oYXJpYTAyO0RFU0tUT1AtSkQzMzZTSzsyMDIxLTEyLTI5OyIwNDowODo0OCAiOzMzNzc="/>
+        <attribute name="edited" value="ZW5nZW5oYXJpYTAyO0RFU0tUT1AtSkQzMzZTSzsyMDIxLTEyLTI5OyIwNDoxNDoyNiAiOzE7MzQ3OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="janeiro, fevereiro, marco, abril, media" type="Integer" array="False" size=""/>
+            <input variable="janeiro"/>
+            <input variable="fevereiro"/>
+            <input variable="marco"/>
+            <input variable="abril"/>
+            <assign variable="media" expression="(janeiro+fevereiro+marco+abril)/4"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;=5000">
+                <then>
+                    <output expression="&quot;Parab&#233;ns voc&#234; atingiu a meta&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente voc&#234; n&#227;o atingiu a meta&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,9 @@
+git clone "http://example...."
+
+git status
+
+git add .
+
+git commit -m "Colocar informação aqui"
+
+git push origin main
